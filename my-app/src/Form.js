@@ -8,7 +8,10 @@ function FormSub() {
   return (
     <div className="Form">
         <Form>
-            initialValues={{name:'', password:''}}
+            <label>
+                Name 
+                <Field type="text" name="name" placeholder="enter your name" />
+            </label>
         </Form>
      
     </div>
